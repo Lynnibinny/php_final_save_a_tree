@@ -41,12 +41,13 @@
 			if ($result->num_rows > 0) {
 				$row = $result->fetch_assoc(); //gets the first row of the result but we have just one anyways
 				echo $row['UseId']; //sends the ID which is stored in the associative array row to the firstscreen widget. 
+				$useid = $row['UseId'];
 			} else {
 				echo "error";
 			}
 			
 			$conn->close();
-			include('Website_register.php');
+			Header("Location: spenden.php?id=$useid");
 			return;
 		}
 	readfile('footer.html');
