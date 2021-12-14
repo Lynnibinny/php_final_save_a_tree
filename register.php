@@ -1,10 +1,10 @@
 <?php
 		error_reporting(E_ALL);
-		$servername = "127.0.0.1";
-		$username = "satree_user";
-		$password = "Uk$12?HB7";
-		$dbname = "Save_A_Tree";
-		$table = "TUser";
+		$servername = "XXXXXXX";
+		$username = "XXXXXXX";
+		$password = "XXXXXXX";
+		$dbname = "XXXXXXX";
+		$table = "XXXXXXX";
 		$action = $_POST['action'];
 
     	$conn = new mysqli($servername, $username, $password, $dbname);
