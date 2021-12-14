@@ -3,11 +3,11 @@ error_reporting(E_ALL);
 ini_set('display_errors', 1);
 session_start();
 $_SESSION['pageloads'] = 0;
-$servername = "127.0.0.1";
-$username = "satree_user";
-$password = "Uk$12?HB7";
-$dbname = "Save_A_Tree";
-$table = "TUser";
+$servername = "XXXXXXX";
+$username = "XXXXXXX";
+$password = "XXXXXXX";
+$dbname = "XXXXXXX";
+$table = "XXXXXXX";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
     if ($conn->connect_error) {
